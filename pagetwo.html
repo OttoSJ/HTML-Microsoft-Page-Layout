@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Two</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+      div {
+        margin-top: 30px;
+        display: inline-block;
+      }
+
+      #one {
+        background-color: lightblue;
+        height: 200px;
+      }
+
+      #two {
+        background-color: skyblue;
+        height: 100px;
+      }
+
+      #three {
+        background-color: lavender;
+        height: 150px;
+      }
+      #pagetwohref {
+        position: relative;
+        right: 10rem;
+        top: 20rem;
+        font-weight: bold;
+        z-index: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="pageTwoContainer">
+      <div>
+        <span>INLINE BLOCK</span>
+        <span>INLINE BLOCK</span>
+        <span>INLINE BLOCK</span>
+      </div>
+      <div>
+        <span>INLINE BLOCK</span>
+        <span>INLINE BLOCK</span>
+        <span>INLINE BLOCK</span>
+      </div>
+      <div>
+        <span>INLINE BLOCK</span>
+        <span>INLINE BLOCK</span>
+        <span>INLINE BLOCK</span>
+      </div>
+    </div>
+    <div>
+      <div id="one">INLINE-BLOCK ONE</div>
+      <div id="two">INLINE-BLOCK TWO</div>
+      <div id="three">INLINE-BLOCK THREE</div>
+    </div>
+    <a id="pagetwohref" href="index.html">Back</a>
+  </body>
+  <script src="index.js"></script>
+</html>
